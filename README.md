@@ -5,8 +5,8 @@ An easy to use and quick toast-like notification for your web applications.
 ## Usage
 ```js
 var options = {
-    			text: "XKTSE",
-				duration: 10000
+    			text: "XKTSE",	// String
+				duration: 10000	// Integer
 			};
 
 var toast = new Toast(options);
