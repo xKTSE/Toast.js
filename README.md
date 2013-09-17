@@ -21,7 +21,7 @@ There are 2 options that you can use when creating new toasts.
 		<td><code>text</code> - REQUIRED - The text message that the end user will see</td>
 	</tr>
 	<tr>
-		<td><code>duration</code> - OPTIONAL - The duration of the toast. By default, if the duration is not set, the toast duration is 2 seconds.</td>
+		<td><code>duration</code> - OPTIONAL - The duration of the toast (in milliseconds.) By default, if the duration is not set, the toast duration is 2 seconds.</td>
 	</tr>
 </table>
 
