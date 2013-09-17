@@ -1,3 +1,5 @@
+// Created by xKTSE (2013)
+
 var Toast = (function () {
         var toast;
         
@@ -50,6 +52,7 @@ var Toast = (function () {
 
         function showToast (duration)
         {
+                // If a toast already exists, remove it, then display the new toast
                 if (document.getElementById('toast') !== null) {
                         $('#toast').remove();
                 }
